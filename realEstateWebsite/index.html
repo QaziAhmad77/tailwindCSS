@@ -7,10 +7,68 @@
     <title>Real Estate App</title>
   </head>
   <body>
-    <nav class="bg-[#2B2B2B] text-white flex h-10">
-      <div>Logo</div>
-      <div>bar Icon</div>
+    <nav
+      class="px-5 bg-[#2B2B2B] text-white flex justify-between items-center h-10"
+    >
+      <div class="text-lg font-bold">Logo</div>
+      <div class="">
+        <img src="/public/menu_icon.png" alt="" />
+      </div>
     </nav>
+    <main>
+      <section class="black-grad text-white">
+        <!-- Hero Text Section -->
+        <div class="flex flex-col pt-20 px-5 gap-2">
+          <h1 class="font-medium text-xl">
+            We Provide <br />
+            Architectural design <br />
+            and Construction
+          </h1>
+          <p class="text-[#C4C4C4] text-base">
+            More than 100 building and housing projects that we have buit.
+            <br />
+            Thy building owner chose us over other construction in Jakarta .
+            <br />
+            because our work is different
+          </p>
+          <button
+            class="self-start text-base py-1.5 px-3 bg-red-500 mt-2 blue-grad"
+          >
+            Discover More
+          </button>
+        </div>
+        <!-- Hero Image -->
+        <div class="flex justify-end -mt-32">
+          <img src="/public/hero_building.png" alt="" />
+        </div>
+      </section>
+      <!-- status -->
+      <section class="bg-green-500 p-5 text-white">
+        <div class="flex justify-between">
+          <div>
+            <div class="flex items-baseline">
+              <h2 class="text-xl font-bold">25</h2>
+              <h2 class="text-lg font-medium">Years</h2>
+            </div>
+            <h3 class="text-xl font-semibold -mt-3">Operated</h3>
+          </div>
+          <div class="text-xl font-bold">Logo</div>
+        </div>
+        <p class="text-sm">
+          As a trusted general project that has been operating for 25 years, our
+          commitment is always to prioritize our client satisfaction.
+        </p>
+        <div class="flex">
+          <div class="flex flex-col">
+            <h3>300+</h3>
+          <p>
+            Happy <br>
+            Client
+          </p>
+          </div>
+        </div>
+      </section>
+    </main>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
